@@ -43,4 +43,5 @@
 
 **Feel free to fork this project and submit PR's for any of the above mentioned features or any other improvements you deem fit**
 
+<hr>
 [LinkedIn - Prabhav Pandey](https://www.linkedin.com/in/prabhav-pandey/)
