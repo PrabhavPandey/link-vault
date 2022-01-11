@@ -1,4 +1,4 @@
-## Link Vault: Save links on the go
+## Link Vault: Save Links on the Go
 
 **A browser extension I made to learn JavaScript fundamentals**
 
@@ -30,5 +30,7 @@
 ## Usage
 
 **Save Tab:** Adds the current tab you're on to the list
+<br>
 **Save Input:** After filling the input filed, click this button to add your input to the list
+<br>
 **Delete All:** Self explanatory, deletes all the saved items
