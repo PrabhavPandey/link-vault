@@ -34,3 +34,9 @@
 **Save Input:** After filling the input filed, click this button to add your input to the list
 <br>
 **Delete All:** Self explanatory, deletes all the saved items
+
+## Possible Features
+
+1. Induvidual item deletion
+2. Adding an alias label for links
+3. an onClick expand search bar
