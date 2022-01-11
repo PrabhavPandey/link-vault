@@ -40,3 +40,7 @@
 1. Induvidual item deletion
 2. Adding an alias label for links
 3. an onClick expand search bar
+
+**Feel free to fork this project and submit PR's for any of the above mentioned features or any other improvements you deem fit**
+
+[LinkedIn - Prabhav Pandey](https://www.linkedin.com/in/prabhav-pandey/)
