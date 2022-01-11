@@ -39,6 +39,7 @@ deleteBtn.addEventListener("dblclick", function () {
   localStorage.clear();
   myLeads = [];
   render(myLeads);
+  para.textContent = "Deleted! Reopen the extension to resize the window";
 });
 
 deleteBtn.addEventListener("click", function () {
