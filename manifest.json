@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "version": "1.0",
-  "name": "Leads tracker",
+  "name": "Link Vault",
   "action": {
     "default_popup": "src/index.html",
     "default_icon": "assets/icon.png"
