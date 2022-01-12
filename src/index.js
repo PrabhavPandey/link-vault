@@ -28,11 +28,23 @@ function render(leads) {
                 <a target='_blank' href='${leads[i]}'>
                     ${leads[i]}
                 </a>
+                <button class='delete-one-btn' id='delete-one-btn'>Delete</button>
             </li>
+            
             <br>
+
         `;
   }
   ulEl.innerHTML = listItems;
+  deleteBtns=document.getElementsByClassName("delete-one-btn");
+  for (let i = 0; i < deleteBtns.length; i++) {
+    deleteBtns[i].addEventListener("click", function () {
+      myLeads.splice(i, 1);
+      localStorage.setItem("myLeads", JSON.stringify(myLeads));
+      render(myLeads);
+    });
+  }
+
 }
 
 deleteBtn.addEventListener("dblclick", function () {
