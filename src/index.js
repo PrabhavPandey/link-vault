@@ -24,15 +24,28 @@ function render(leads) {
   let listItems = "";
   for (let i = 0; i < leads.length; i++) {
     listItems += `
+
             <li>
                 <a target='_blank' href='${leads[i]}'>
                     ${leads[i]}
                 </a>
+                <img class="ind-del" height="20px" src="../assets/delete.svg">
             </li>
+    
             <br>
+
         `;
   }
+
   ulEl.innerHTML = listItems;
+  let deleteBtns = document.getElementsByClassName("ind-del");
+  for (let i = 0; i < deleteBtns.length; i++) {
+    deleteBtns[i].addEventListener("click", function () {
+      myLeads.splice(i, 1);
+      localStorage.setItem("myLeads", JSON.stringify(myLeads));
+      render(myLeads);
+    });
+  }
 }
 
 deleteBtn.addEventListener("dblclick", function () {
