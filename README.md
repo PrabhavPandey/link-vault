@@ -8,7 +8,7 @@
 
 2. Have a lot of folders and bookmarks in your bookmark bar and still come across a link that you have no idea where to put? Forget the internal deliberation to decide where to put it. Save it here and keep the organising for another time.
 
-![enter image description here](https://i.postimg.cc/rspX8cDg/Capture.png)
+![enter image description here](https://i.postimg.cc/GhFJYk83/Capture.png)
 
 ## Installation and Setup
 
