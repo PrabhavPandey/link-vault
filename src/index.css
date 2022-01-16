@@ -24,6 +24,7 @@ input {
 .button-container {
   display: flex;
   gap: 9px;
+  margin-top: 4px;
 }
 
 button {
@@ -90,4 +91,10 @@ img {
   border: none;
   position: relative;
   right: 11px;
+}
+
+.edit-el {
+  position: relative;
+  right: 31px;
+  top: 0.5px;
 }

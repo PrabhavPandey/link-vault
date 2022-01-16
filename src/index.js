@@ -30,6 +30,7 @@ function render(leads) {
                     ${leads[i]}
                 </a>
                 <img class="ind-del" height="20px" src="../assets/delete.svg">
+                <img class="edit-el" height="26px" src="../assets/edit.png">
             </li>
     
             <br>
@@ -60,6 +61,8 @@ deleteBtn.addEventListener("click", function () {
 });
 
 inputBtn.addEventListener("click", function () {
+  if (alias) {
+  }
   myLeads.push(inputEl.value);
   inputEl.value = "";
   localStorage.setItem("myLeads", JSON.stringify(myLeads));
