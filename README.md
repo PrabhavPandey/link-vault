@@ -37,9 +37,9 @@
 
 ## Possible Features
 
-1. Induvidual item deletion
-2. Adding an alias label for links
-3. an onClick expand search bar
+- [x] Induvidual item deletion
+- [ ] Adding an alias label for links
+- [ ] an onClick expand search bar
 
 **Feel free to fork this project and submit PR's for any of the above mentioned features or any other improvements you deem fit**
 
